@@ -6,7 +6,7 @@ import { PackageTestView } from 'react-native-package-test';
 export default function App() {
   return (
     <View style={styles.container}>
-      <PackageTestViewManager color="#32a852" style={styles.box} />
+      <PackageTestView color="#32a852" style={styles.box} />
     </View>
   );
 }
@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'red'
   },
   box: {
     width: 60,
